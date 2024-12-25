@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 236, 236);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200;
+    
+}
+.header{
+    background-color: #333;
+    color: white;
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.header .logo h1{
+    display: inline-block;
+    margin: 0;
+    font-size: 24px;
+}
+.logo{
+    position: relative;
+   
+    
+}
+.logo .sitetitle{
+   margin-left: 10px;
+  
+   
+   
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 150px;
+    display: flex;
+    justify-content: center;
+    flex: 2;
+    float: right;
+}
+.nav li{
+    display: inline;
+    margin-left: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 25px 15px;  
+}
+.nav a:hover{
+   background-color: #ff6e54;
+
+
+}
+.active{
+  background-color: #ff6e54;
+  
+}
+.section1{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: #ff6e54;
+    color: white;
+    padding: 50px 0;
+}
+.content{
+    max-width: 50%;
+    padding-left: 130px;
+}
+.content h2{
+    font-size: 28px;
+  
+}
+.content p{
+    font-size: 16px;
+    margin: 20px 0;
+    width: 300px;
+    text-align: justify;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
+.content button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.image img{
+    width: 350px;
+    height: auto;
+    padding-right: 430px;
+color: #ff6e54;
+}
+
+  .stats-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-left:200px;
+    margin-top: 20px;
+  }
+  
+  .icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    margin-bottom: 50px;
+  
+  }
+  
+  .text h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #4d4d4d;
+    font-weight: 0;
+  }
+  
+  .text p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+  }
+  .containers{
+    display: flex;
+    gap: 20px;
+  
+
+  }
+  .social{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .footer{
+    margin-top: 60px;
+    text-align: center;
+    
+  }
+  

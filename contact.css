@@ -1,0 +1,101 @@
+.div1{
+    
+    margin-top: 55px;
+    background-color: #ff6e54;
+    width: 100%;
+    height: 50px;
+ 
+   
+}
+.div1 p{
+  
+  padding-top: 20px;
+  padding-left: 70px;
+  font-size: 14px;
+  font-weight: 0;
+}
+.div1 p a{
+    color: #333;
+    text-decoration: none;
+}
+.div1 span{
+    color: white;
+}
+.about-team{
+    text-align: center;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 2px;
+    color: #555;
+    background-color: rgb(233, 233, 233);
+}
+.home{
+    font-size: 14px;
+    color: #777;
+    /*margin-bottom: 10px ;*/
+    text-align: center;
+    margin: 10px auto;
+    max-width:1200px ;
+    padding: 0 20px;
+    
+}
+.home h1{
+color: rgb(54, 53, 53);
+margin: 0;
+padding: 0;
+font-weight: none;
+text-align: center;
+}
+.frame{
+    border: 2px dashed gray;
+    
+    
+}
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.form .general-info{
+    flex: 1px;
+    min-width: 300px;
+}
+.form h2,.general-info h2{
+    color: #333;
+    font-size: 16px;
+
+}
+input{
+    margin-left: 30px;
+    width: 50%;
+    height: 20px;
+    padding: 10px;
+}
+.form textarea{
+    width: 100%;
+    padding: 10px;
+  margin-top: 15px;
+    margin-left: 30px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+.form button{
+    background-color:#333 ;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+   
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+button:hover{
+    background-color: #e14e2d;
+}
+.general-info{
+    line-height: 1.8;
+    margin-right: 100px;
+}
